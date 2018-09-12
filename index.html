@@ -6,12 +6,19 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <script>
+      $(document).ready(function(){
+       var div = $("#dd");  
+        div.animate({left: '100px'}, "slow");
+        div.animate({fontSize: '3em'}, "slow");
+    </script>
   </head>
-  <body><center>
-<h1> Web lab Programs</h1>
+  <body><center><div id="dd">
+    <h1><strong> Web lab Programs<strong></h1></div>
     <a href="calci.html" class="btn btn-success btn-lg">
       <span class="	glyphicon glyphicon-list-alt"></span> Calculator
-    </a> </br>
+  </a> </br> </br> </br>
     <a href="numbers.html" class="btn btn-success btn-lg">
       <span class="	glyphicon glyphicon-list-alt"></span> Numbers and its squares and cubes
     </a>
