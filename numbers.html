@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Numbers</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+table{
+border-collapse:collapse;
+margin-top:35px;
+width:40%;
+}
+th {
+border: 2px solid black;
+width:50px;
+height:35px;
+text-align:center;
+background-color:#383133;
+color:#FF5733;
+}
+td{
+border: 2px solid black;
+width:50px;
+text-align:center;
+background-color:white;
+height:23px;
+color:black;
+}
+td:hover{
+background-color:#383133;
+color:yellow;
+height:28px;
+}
+</style>
+<script>
+document.write("<center><table><tr><th>Number</th> <th>Square</th> <th>Cube</th></tr>")
+for(i=0;i<=10;i++)
+{
+document.write("<tr><td>"+i+"</td><td>"+i*i+"</td><td> "+i*i*i+"</td></tr>")
+}
+document.write("</table></center>")
+</script>
+</head>
+
+<body>
+
+</body>
+</html>
+ 
