@@ -4,15 +4,15 @@
 
 
 
-<body style="background-color:yellow">
+<body style="background-color:black; color:white;">
 <main style="max-width:900px;margin:auto;">
 <center>
 <input type="text" id="str" placeholder="enter string/num">
 <input type="submit" onclick="evalinput();" value="Submit" name="sub">
 
 <br>
-<h2 style="color:red">result:</h2>
-<div id="result"></div>
+<h2 style="color:red">Result:</h2>
+<div id="result" style="border:2px solid yellow"></div>
 
 <script>
 function evalinput(){
@@ -31,10 +31,10 @@ function evalinput(){
 		var text="<p> The entered string "+str+"</strong>";
 		for(var i=0;i<str.length;i++){
 			if(str.charAt(i)=='a'||str.charAt(i)=='e'||str.charAt(i)=='i'||str.charAt(i)=='o'||str.charAt(i)=='u'||str.charAt(i)=='A'||str.charAt(i)=='E'||str.charAt(i)=='I'||str.charAt(i)=='O'||str.charAt(i)=='U'){
-				text+="<p> the left vowel is "+str.charAt(i)+"</p>";
+				text+="<p> The left vowel is "+str.charAt(i)+"</p>";
 				var pos=i+1;
 
-				text+="<p> position of left vowel "+str.charAt(i)+"  is  "+pos+"</p>";
+				text+="<p> Position of left vowel "+str.charAt(i)+"  is  "+pos+"</p>";
 				result.innerHTML=text;
 				exit;
 			}
