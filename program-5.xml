@@ -1,0 +1,41 @@
+<?xml-stylesheet type="text/css" href="st.css"?>
+<main>
+<students>
+<student>
+<usn> USN:4vv15cs114</usn>
+<name>Name:Sumanth</name>
+<college>College:VVCE</college>
+<branch>Branch:CSE</branch>
+<year>Year:2020</year>
+<email>Email:sumanth1029@gmail.com</email>
+</student>
+
+<student>
+<usn> USN:4vv15cs115</usn>
+<name>Name:Surya</name>
+<college>College:VVCE</college>
+<branch>Branch:CSE</branch>
+<year>Year:2020</year>
+<email>Email:surya@gmail.com</email>
+</student>
+
+<student>
+<usn> USN:4vv15cs116</usn>
+<name>Name:Sushaini</name>
+<college>College:VVCE</college>
+<branch>Branch:CSE</branch>
+<year>Year:2020</year>
+<email>Email:sushaini@gmail.com</email>
+</student>
+
+<student>
+<usn> USN:4vv15cs118</usn>
+<name>Name:Tapan</name>
+<college>College:VVCE</college>
+<branch>Branch:CSE</branch>
+<year>Year:2020</year>
+<email>Email:tapan@yahoo.com</email>
+</student>
+
+</students>
+</main>
