@@ -11,31 +11,23 @@
 </student>
 
 <student>
-<usn> USN:4vv15cs115</usn>
-<name>Name:Surya</name>
+<usn> USN:4vv15cs101</usn>
+<name>Name:Shivaprasad</name>
 <college>College:VVCE</college>
 <branch>Branch:CSE</branch>
 <year>Year:2020</year>
-<email>Email:surya@gmail.com</email>
+<email>Email:shivaprasad@gmail.com</email>
 </student>
 
 <student>
-<usn> USN:4vv15cs116</usn>
-<name>Name:Sushaini</name>
+<usn> USN:4vv15cs106</usn>
+<name>Name:Somesh</name>
 <college>College:VVCE</college>
 <branch>Branch:CSE</branch>
 <year>Year:2020</year>
-<email>Email:sushaini@gmail.com</email>
+<email>Email:somesh@gmail.com</email>
 </student>
 
-<student>
-<usn> USN:4vv15cs118</usn>
-<name>Name:Tapan</name>
-<college>College:VVCE</college>
-<branch>Branch:CSE</branch>
-<year>Year:2020</year>
-<email>Email:tapan@yahoo.com</email>
-</student>
 
 </students>
 </main>
