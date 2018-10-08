@@ -2,12 +2,12 @@ student{
 display:block;
 
 margin-top:50px;
-color:yellow;
-border:1px solid red; 
+
+border:2px solid red; 
 
 }
 main{
-background-color:black;
+
 margin-left:50px;
 width:280px
 }
