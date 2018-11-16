@@ -4,15 +4,26 @@ $a1 = array(
     array(3, 4,1),
     array(5, 6,9)
 );
-echo "<h1> first  matrix </h1>";
-echo "<pre/>";print_r($a1);
+echo "<h2> Matrix </h2>";
+for ($row = 0; $row < 3; $row++) {
+	echo "<br>";
+  for ($col = 0; $col < 3; $col++) {
+    echo " ".$a1[$row][$col];
+  }
+}
 $a2 = array(
     array(1, 2,3),
     array(3, 4,1),
     array(5, 6,9)
 );
-echo "<h1> second matrix </h1>";
-echo "<pre/>";print_r($a2);
+echo "<h2> 2nd matrix </h2>";
+for ($row = 0; $row < 3; $row++) {
+echo "<br>";  
+  for ($col = 0; $col < 3; $col++) {
+    echo " ".$a2[$row][$col];
+  }
+}
+
 $result = array();
 for($i=0;$i<3;$i++)
 {
@@ -27,6 +38,11 @@ for($i=0;$i<3;$i++)
 	
 	
 }
-echo "<h1> result matrix </h1>";
-echo "<pre/>";print_r($result);
+echo "<h2> result matrix </h2>";
+for ($row = 0; $row < 3; $row++) {
+echo "<br>";  
+  for ($col = 0; $col < 3; $col++) {
+    echo " ".$result[$row][$col];
+  }
+}
 	
