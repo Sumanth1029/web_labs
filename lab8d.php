@@ -45,4 +45,4 @@ echo "<br>";
     echo " ".$result[$row][$col];
   }
 }
-	
+?>	
