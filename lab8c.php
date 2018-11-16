@@ -1,20 +1,37 @@
-<?php 
-$a1 = Array('0' => Array('0' => 1,'1' => 2),'1' => Array('0' => 4,'1' => 5));
-$a2 = Array('0' => Array('0' => 1,'1' => 2),'1' => Array('0' => 4,'1' => 5));
+<?php
+$trans = array(
+    array(1, 2,3),
+    array(4, 5,6),
+    array(7, 8,9)
+);
 
-$sumArray = array();
-
-$result = array();
-for($i=0; $i<=1; $i++) {
-    for($j=0; $j<=1; $j++) {
-        $result[$i][$j] = $a1[$i][$j] + $a2[$i][$j];
-    }
+$trans2=array(
+    array(1, 2,3),
+    array(4, 5,6),
+    array(7, 8,9)
+);
+$sum=array();
+echo "<h2> Matrix </h2>";
+for ($row = 0; $row < 3; $row++) {
+	echo "<br>";
+  for ($col = 0; $col < 3; $col++) {
+    echo " ".$trans[$row][$col];
+  }
 }
-
-echo "<p> matrix one </p>";
-echo "<pre/>";print_r($a1);
-echo "<p> matrix Two</p>";
-echo "<pre/>";print_r($a2);
-echo "<p> matrix Addition</p>";
-echo "<pre/>";print_r($result);
+echo "<h2> 2nd matrix </h2>";
+for ($row = 0; $row < 3; $row++) {
+echo "<br>";  
+  for ($col = 0; $col < 3; $col++) {
+    echo " ".$trans2[$row][$col];
+  }
+  
+}
+echo "<h2> sum matrix </h2>";
+for ($row = 0; $row < 3; $row++) {
+echo "<br>";  
+  for ($col = 0; $col < 3; $col++) {
+    $sum[$row][$col]=$trans2[$row][$col]+$trans[$row][$col];
+	echo " ".$sum[$row][$col];
+}
+}
 ?>
