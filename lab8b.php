@@ -20,3 +20,10 @@ echo "<br>";
   
 }
 ?>
+<htm><head>
+	<style>
+		background-color:black;
+		color:white;
+	</style>
+	</head>
+	</html>
